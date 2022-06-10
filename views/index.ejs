@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+   <ul>
+<% for(var i=0; i < data.items.length; i++) { %>
+ <li class="list-item">
+   <i><%= data.items[i].pubDate %></i>
+     <h3><%= data.items[i].title %></h3>
+    <!-- <a href="<%= data.items[i].link %>"><%= data.items[i].link %></a> -->
+
+    <p><%= data.items[i].content %></p>
+     </li>
+   </ul>
+<% } %>
+  </ul>
+  <%= JSON.stringify(data) %>
+  </body>
+</html>

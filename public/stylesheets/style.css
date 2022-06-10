@@ -1,0 +1,14 @@
+* {
+    font-family: arial, helvetica, verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-item {
+    box-shadow: 0 0 15px #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    line-height: 1.5rem;
+}
